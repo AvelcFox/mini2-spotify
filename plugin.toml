@@ -1,0 +1,15 @@
+id = "spotify-soloist"
+name = "Spotify Connect (Soloist)"
+version = "1.0.0"
+description = "Автономный Spotify Connect плеер без PulseAudio с прямым ALSA-выводом и Hi-Fi тюнингом"
+permissions = ["exec", "clock"]
+
+[launch]
+kind = "binary"
+mode = "service"
+path = "service.sh"
+interpreter = "sh"
+args = ["start_fg"]
+
+[compatibility]
+models = ["yandexmini2", "yandexmicro", "yandexmidi"]
