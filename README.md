@@ -40,7 +40,7 @@
 
 ## 🚀 Быстрая установка
 
-### Вариант 0. Через YAM (Y Application Manager)
+### Вариант 0. В будущем Через YAM (Y Application Manager)
 Если на вашей Станции установлен [YAM (`nyakokitsu/yam`)](https://github.com/nyakokitsu/yam):
 ```bash
 # Установка готового пакета .yap
